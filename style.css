@@ -90,10 +90,10 @@ button.active {
 
 .purchase {
     margin-top: 5rem;
-    transition: all 0.75s ease-out;
 }
 
 .purchase button {
+    transition: all 0.75s ease-out;
     width: 100%;
     padding: 1rem 0rem;
     background: #f54642;
@@ -102,4 +102,37 @@ button.active {
     cursor: pointer;
     border-radius: 30px;
     font-weight: bolder;
+}
+
+@media only screen and (max-width: 776px) {
+    .card {
+        width: 20rem;
+        min-height: 70vh;
+    }
+
+    .sizes button {
+        padding: 0.3rem 1rem;
+    }
+
+    .sneaker img {
+        width: 15rem;
+    }
+
+    .circle {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .info h1 {
+        font-size: 1.5rem;
+    }
+    
+    .info h3 {
+        font-size: 0.8rem;
+        padding: 2rem 0rem;
+    }
+
+    .purchase {
+        margin-top: 2rem;
+    }
 }
